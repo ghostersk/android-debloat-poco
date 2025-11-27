@@ -1,5 +1,5 @@
 # android-debloat-poco
-Android ADB debloat script ( especially for Xiaomi/Poco phones) 
+NO ROOT REQUIRED! Android ADB debloat script ( especially for Xiaomi/Poco phones) 
 ## Tested on Poco X7 Pro
 this picture is just for visualization, I have not used adbappcontrol.com for debloating ( 1.3 GB RAM saved)
 <img width="1192" height="836" alt="image" src="https://github.com/user-attachments/assets/a46ed2a4-ded9-4aa6-aca3-f3c6901c4eae" />
@@ -9,6 +9,8 @@ this picture is just for visualization, I have not used adbappcontrol.com for de
 - you can get adb with `winget` on windows or from https://developer.android.com/tools/releases/platform-tools
 - Adb should be in PATH ( so you can call it with just adb) otherwise update the script to include full path to `adb`
 - Here is guide for adb setup ( or just search it in your favourite web search): https://www.xda-developers.com/install-adb-windows-macos-linux/
+- Then you need to enable USB Debuging ( this is different on each phone ) but generally you go to `About phone` then you need to clic 7-9 times on `OS Version` this enables the USB Debugging menu within main Settings, or for Poco it was in `Settings` > `Aditional settings` > `Developer Options` scroll down and enable `USB Debugging`, when you connect it to your PC, and you will use `adb` it should ask first time for access on phone, Confirm it.
+- when you are finish turn the Debugging OFF, so someone does not get access to your phone, even when it should require confirmation on phone
   
 ```powershell
 .\debloater.ps1
