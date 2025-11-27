@@ -49,7 +49,7 @@ com.xiaomi.xmsf
 
 # If you got Boot Loop - remove from the list `com.xiaomi.xmsf`
 
-# Google Debloating, Remove or comment out following section if you do not want remove these apps:
+# Google Debloating, Remove following section if you do not want remove these apps, or just remove some:
 @"
 com.google.android.aicore
 com.google.android.apps.podcasts
