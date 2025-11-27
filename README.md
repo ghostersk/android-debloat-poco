@@ -1,5 +1,6 @@
 # android-debloat-poco
 NO ROOT REQUIRED! Android ADB debloat script ( especially for Xiaomi/Poco phones) 
+- Main app debloat list comes from https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation
 ## Tested on Poco X7 Pro
 this picture is just for visualization, I have not used adbappcontrol.com for debloating ( 1.3 GB RAM saved)
 <img width="1192" height="836" alt="image" src="https://github.com/user-attachments/assets/a46ed2a4-ded9-4aa6-aca3-f3c6901c4eae" />
