@@ -7,7 +7,7 @@ this picture is just for visualization, I have not used adbappcontrol.com for de
 
 # Usage
 - it Requires `adb`
-- you can get adb with `winget` on windows or from https://developer.android.com/tools/releases/platform-tools
+- you can get adb with `winget install -e --id Google.PlatformTools` on windows or from https://developer.android.com/tools/releases/platform-tools
 - Adb should be in PATH ( so you can call it with just adb) otherwise update the script to include full path to `adb`
 - Here is guide for adb setup ( or just search it in your favourite web search): https://www.xda-developers.com/install-adb-windows-macos-linux/
 - Then you need to enable USB Debuging ( this is different on each phone ) but generally you go to `About phone` then you need to clic 7-9 times on `OS Version` this enables the USB Debugging menu within main Settings, or for Poco it was in `Settings` > `Aditional settings` > `Developer Options` scroll down and enable `USB Debugging`, when you connect it to your PC, and you will use `adb` it should ask first time for access on phone, Confirm it.
