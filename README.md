@@ -15,6 +15,8 @@ this picture is just for visualization, I have not used adbappcontrol.com for de
 ```
 ## Notes
 - it will remove all apps it can, including Google apps, so you will need to install what you need after
+- Some settings like Themes on Poco Launcher will not work, as well as settings menu `Personalisation`
+- if you ever find some app what was removed you need, you can either download it often from Google App store, or with `adb` you can re-install it with `adb cmd package install-existing <package name>` as these apps are hardcoded to system, and without rooting it is still available. - all removed packages names are in the `debloat_summary.csv` after the script runs
 - Check the script and remove any apps from those lists you do not wish to remove
 - there is note about `com.xiaomi.xmsf` if you get boot loop after running this and restart, you should remove it from the list ( it worked ok on Poco X7 Pro)
 - you will be asked couple questions:
@@ -27,6 +29,13 @@ this picture is just for visualization, I have not used adbappcontrol.com for de
   -> you can find this by searching for `DNS` in settings or it may be in `More connectivity Options` > `Private DNS`
 <img width="243" height="288" alt="image" src="https://github.com/user-attachments/assets/f393e15d-e068-4ae8-ac87-d27061c86440" />
 
+# Further Tips for POCO and other XIAOMI phones
+- Some phones have RAM extended with space on storage, this can lead to fast degredation of your disk, best to disable it, ( on Poco X7 Pro ) it can be found in `Settings` > `Additional settings`> `Memory extension` set it to Off ( this may have sense for < 8GB models, but even then i would turn it off.
+- Turn off the AI assistant on 0.5s power button press: `Settings` > `Additional settings`> `Gesture shortcuts` > `Launch digital asistant` OFF
+- `Settings` > `Home Screen` > `-1 screen` set to `None` This Turns off the AI/Google news screen on home page, when you scroll to left
+- There are some gameres maybe who will not like this one, but I want the phone battery last. More time the screen needs refresh it will take more battery. On phones with higher refresh rate I set it to `60` what is totaly enough. This is in `Settings` > `Display & brightness` > `Refresh Rate` > `Custom` set to lowest (60)
+- Last is just general clean up, go to `Settings` > `Apps` and click on each of the apps and remove permissions what you do not need, for example I want to Keep Poco Home screen for the gesture navigation, so I turn off all notifications there and even disabled it to change settings, run in background....
+  -> more settings can be found when you are on the `Apps` page and you click 3 dots on top right, then `Other settings` and also in `Settings` > `Privacy` > `Permission manager`
 
 # Photos from phone:
 - Final look
